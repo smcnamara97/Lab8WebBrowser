@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/back_button"
+        android:icon="@drawable/ic_back_button"
+        android:title="@string/back_button"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/add_button"
+        android:title="@string/add_button"
+        android:icon="@drawable/ic_add_button"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/forward_button"
+        android:title="@string/forward_button"
+        android:icon="@drawable/ic_forward_button"
+        app:showAsAction="always"/>
+
+</menu>
